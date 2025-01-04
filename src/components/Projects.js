@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import { projects } from "../data";
 const Projects = () => {
   return (
-    <div className="w-full py-10">
+    <div id="projects" className="w-full py-10">
       {/* Section Heading */}
         <div className="text-center mb-12">
           <p className="text-gray-600 uppercase">BROWSE MY RECENT</p>

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin , FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-6 lg:px-12 text-gray-800">
+    <footer className="w-full px-6 lg:px-12 bottom-0 text-gray-800">
 
       {/* Divider */}
       <div className="mt-6 border-t border-gray-300"></div>

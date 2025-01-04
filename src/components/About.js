@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAward, FaUserGraduate } from "react-icons/fa";
+import { FaAward, FaUserGraduate , FaLightbulb } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -15,39 +15,30 @@ const About = () => {
         <div className="mx-auto">
           {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Experience Card */}
-            <div className="card">
-              <FaAward className="text-3xl text-gray-700 mx-auto mb-4" />
-              <h3 className="font-semibold">Experience</h3>
-              <p className="text-gray-600">2+ years</p>
-              <p className="text-gray-600">Frontend Development</p>
-            </div>
-            {/* Experience Card */}
-            <div className="card">
-              <FaAward className="text-3xl text-gray-700 mx-auto mb-4" />
-              <h3 className="font-semibold">Experience</h3>
-              <p className="text-gray-600">2+ years</p>
-              <p className="text-gray-600">Frontend Development</p>
-            </div>
-
-            {/* Education Card */}
             <div className="card">
               <FaUserGraduate className="text-3xl text-gray-700 mx-auto mb-4" />
               <h3 className="font-semibold">Education</h3>
-              <p className="text-gray-600">B.Sc. Bachelors Degree</p>
-              <p className="text-gray-600">M.Sc. Masters Degree</p>
+              <p className="text-gray-600">Pursuing B.Tech in Computer Science</p>
+              <p className="text-gray-600">Indian Institute of Technology, Ropar</p>
+            </div>
+            <div className="card">
+              <FaAward className="text-3xl text-gray-700 mx-auto mb-4" />
+              <h3 className="font-semibold">Skills</h3>
+              <p className="text-gray-600">React, JavaScript, HTML, CSS</p>
+              <p className="text-gray-600">C++, Python, Data Structures</p>
+            </div>
+            <div className="card">
+              <FaLightbulb className="text-3xl text-gray-700 mx-auto mb-4" />
+              <h3 className="font-semibold">Data Structures and Algorithms</h3>
+              <p className="text-gray-600">Codeforces Rating: 1089</p>
+              <p className="text-gray-600">LeetCode: 150+ problems solved</p>
             </div>
           </div>
 
           {/* Description */}
           <div className="mt-8 text-gray-600 leading-relaxed">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorem cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+            I am a dedicated Computer Science student at IIT Ropar, deeply passionate about web development and algorithms. With expertise in crafting dynamic, user-friendly web applications using modern frameworks like React, I thrive on creating impactful digital experiences. Additionally, my active involvement in competitive programming helps me sharpen my problem-solving skills and think innovatively under pressure.
             </p>
           </div>
         </div>

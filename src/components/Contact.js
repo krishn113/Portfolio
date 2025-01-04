@@ -23,7 +23,7 @@ export default function Contact() {
     setResult("");
 
     const formData = new FormData();
-    formData.append("access_key", "8d4ba83c-cc83-477f-978c-62d019439aad");
+    formData.append("access_key", process.env.REACT_APP_FORM_ACCESS_KEY);
     formData.append("name", form.name);
     formData.append("email", form.email);
     formData.append("message", form.message);
