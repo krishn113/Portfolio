@@ -32,7 +32,7 @@ export const projects = [
       image: "/projects/idea-nest.png",
       description: "A collaborative platform for brainstorming and developing innovative project ideas with a vibrant community.",
       techStack: ["React", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/example/idea-nest",
+      github: "https://github.com/krishn113/idea-nest",
       website: "https://idea-nest-five.vercel.app/",
     },
     {
@@ -40,7 +40,7 @@ export const projects = [
       image: "/projects/sorting-visualizer.png",
       description: "A web application to visualize different sorting algorithms in real-time.",
       techStack: ["React", "JavaScript", "CSS"],
-      github: "https://github.com/example/sorting-visualizer",
+      github: "https://github.com/krishn113/Sorting-Visualiser",
       website: "https://sorting-visualiser-alpha.vercel.app/",
     },
     {
@@ -48,7 +48,7 @@ export const projects = [
       image: "/projects/sudoku-solver.png",
       description: "An interactive Sudoku solver that allows users to solve puzzles step by step.",
       techStack: ["React", "JavaScript" , "CSS"],
-      github: "https://github.com/example/sudoku-solver",
+      github: "https://github.com/krishn113/suduko-solver",
       website: "https://suduko-solver-nine.vercel.app/",
     },
     {
